@@ -1,1 +1,1 @@
-# registration
+This project is a smaple FastAPI application that include an API endpoint returning "Hello World". set up FastAPI, set up pytest, create .gitignore file, requirement.txt, main1.py and test_main.py. it also create action.yml to do test for Github automatic testing
