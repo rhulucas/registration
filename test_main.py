@@ -13,3 +13,4 @@ def test_get_movieview_by_name():
     response = client.get("/movie/test_movie")
     assert response.status_code == 200
     assert isinstance(response.json(), list)
+    assert response.json() == {"Hello": "World"} 
